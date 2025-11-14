@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   gotab-server:
-    image: doxwant/gotab:latest
+    image: yxc19930727/gotab:latest
     container_name: gotab-server
     ports:
       - "8080:8080" # 映射主机的 8080 端口到容器的 8080 端口
